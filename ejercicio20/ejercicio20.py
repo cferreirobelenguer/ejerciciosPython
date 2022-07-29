@@ -1,21 +1,39 @@
 #Dados tres números mostrar la combinación mayor en su conjunto; ej 200 002 020 la combinación mayor es 200
 
 def combinacionNumeros(a,b,c):
-    
-    valores=[]
-    a=str(a)
-    b=str(b)
-    c=str(c)
-    
-    valores.append(int(a+b+c));
-    valores.append(int(a+c+b));
-    valores.append(int(c+a+b));
-    valores.append(int(c+b+a));
-    valores.append(int(b+a+c));
-    valores.append(int(b+c+a));
+    primera=0
+    segunda=0
+    tercera=0
+    #primeras posiciones
+    if((a>b)and(a>c)):
+        primera=a
+    elif((b>a)and(b>c)):
+        primera=b
+    elif((c>a)and(c>b)):
+        primera=c
+    #segunda posición a
+    if((a>c)and(a<b)):
+        segunda=a
+    elif((a>b)and(a<c)):
+        segunda=a
+    #segunda posición b
+    elif((b>c)and(b<a)):
+        segunda=b
+    elif((b>a)and(b<c)):
+        segunda=b
+    #segunda posición c
+    elif((c>a)and(c<b)):
+        segunda=c
+    elif((c>b)and(c<a)):
+        segunda=c
+    #terceras posiciones
+    if((a<b)and(a<c)):
+        tercera=a
+    elif((b<a)and(b<c)):
+        tercera=b
+    elif((c<a)and(c<b)):
+        tercera=c
 
-    maximo=max(valores)
-    minimo=min(valores)
-    print(f"El valor máximo es: {maximo} ")
-    print(f"El valor mínimo es: {minimo} ")
+    numero=str(primera)+str(segunda)+str(tercera)
+    print(f"La combinación mayor es {numero}")
 combinacionNumeros(4,3,7)
