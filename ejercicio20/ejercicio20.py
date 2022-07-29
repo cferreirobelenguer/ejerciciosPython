@@ -36,4 +36,4 @@ def combinacionNumeros(a,b,c):
 
     numero=str(primera)+str(segunda)+str(tercera)
     print(f"La combinación mayor es {numero}")
-combinacionNumeros(4,3,7)
+combinacionNumeros(2,7,5)
