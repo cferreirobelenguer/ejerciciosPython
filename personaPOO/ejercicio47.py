@@ -13,9 +13,6 @@ y False si es menor de 18
 Realizar su respectivo constructor, métodos y atributos
 """
 
-from mailbox import NoSuchMailboxError
-
-
 class Persona:
     
     def __init__(self,nombre,edad,dni):
