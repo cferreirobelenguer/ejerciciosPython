@@ -21,6 +21,7 @@ Versión usada de Python: Python3
 ## Matrices
 
 ### ordenarMatriz: ejercicio 4 que pide ordenar cada una de las filas de una matriz primero de menor a mayor y luego de mayor a menor
+### matrizDecimales: ejercicio 29 elegir el número de filas y columnas de una matriz, rellenarla con 1 o 0 (no permtir números que no sean 1 o 0). Pasar de binario a decimal cada una de las filas que componen la matriz
 ### calcularSubtotal: ejercicio 30 pide elegir 6 artículos de productos de una matriz (siempre y cuando el stock no sea 0) y cacular el subtotal y total
 ## Listas
 
