@@ -20,7 +20,7 @@ Versión usada de Python: Python3
 
 ## Matrices
 
-### ordenarMatriz: ejercicio 4 que pide ordenador cada una de las filas de una matriz primero de menor a mayor y luego de mayor a menor
+### ordenarMatriz: ejercicio 4 que pide ordenar cada una de las filas de una matriz primero de menor a mayor y luego de mayor a menor
 
 ## Listas
 
