@@ -43,7 +43,7 @@ def comprarArticulos(table):
     subtotal=0
     precio=0
     iva=0.21
-    #Se calculan los totales y subtotales teniendo en cuenta la cantidad de stock
+    #Se calculan los totales y subtotales
     for filas in compra:
         for columnas in range(len(filas)):
             if(columnas==1):
@@ -52,8 +52,10 @@ def comprarArticulos(table):
     
     subtotal=round(subtotal)
     print(f"SUBTOTAL SIN IVA: {subtotal} €")
+    #Se calcula el iva
     iva=subtotal*iva
     print(f"IVA: {iva}")
+    #Se calcula el total de compra
     total=subtotal+iva
     print(f"--TOTAL DE LA COMPRA--: {total}")
 
