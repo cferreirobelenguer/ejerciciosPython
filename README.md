@@ -29,7 +29,7 @@ Versión usada de Python: Python3
 ### contarLetras: ejercicio 3 que muestra la longitud de una tupla, añade un dato a esta y cuenta las letras de cada una de las palabras que forman la tupla
 
 ## Programación orientada a objetos
-
+### personaPOO: ejercicio 47 crear clase persona con constructir con atributos nombre, edad y dni, y método que muestre la edad del objeto y otro que diga si es mayor de edad o no
 ## Trabajando con bases de datos
 
 ## Django
