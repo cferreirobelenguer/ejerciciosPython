@@ -1,4 +1,28 @@
-45 EJERCÍCIOS DE PYTHON
+# 46 EJERCÍCIOS DE PYTHON
 
-EJERCÍCIOS DE PYTHON PARA REFORZAR LA LÓGICA DE PROGRAMACIÓN
-Y REPASAR CONCEPTOS
+## EJERCÍCIOS DE PYTHON PARA REFORZAR LA LÓGICA DE PROGRAMACIÓN Y REPASAR CONCEPTOS
+Versión usada de Python: Python3
+
+## INDICE DE EJERCICIOS
+
+### Estructuras de control
+
+multiplos: ejercicio 18 dados tres números mostrar los múltiplos de A, menores que B y que no sean dividores de C usando estructuras de control
+combinaciones: ejercicio 20 sobre mostrar la combinación mayor de 3 números usando estructuras de control
+generosEdades: ejercicio 21 sobre hacer recuento de asistentes de un evento por género y edades usando estructuras de control
+numeroPerfecto: ejercicio 22 determinar si un número x es perfecto, si la suma de sus divisores es el mismo número, usando estructuras de control
+
+### Diccionarios
+
+botEliza: ejercicio 46 sobre crear un bot mediante un diccionario
+
+### Listas
+
+### Tuplas
+
+### Programación orientada a objetos
+
+### Trabajando con bases de datos
+
+### Django
+

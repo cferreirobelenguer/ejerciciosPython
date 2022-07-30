@@ -15,4 +15,4 @@ def numeroPerfecto(num):
     else:
         print(f"{num} no es un número perfecto; ya que la suma de sus divisores es {suma}")
 
-numeroPerfecto(6)
+numeroPerfecto(496)
