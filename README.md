@@ -31,6 +31,7 @@ Versión usada de Python: Python3
 ## Programación orientada a objetos
 ### personaPOO: ejercicio 47 crear clase persona con constructir con atributos nombre, edad y dni, y método que muestre la edad del objeto y otro que diga si es mayor de edad o no
 ### calculadoraPOO: ejercicio 48 crear calculadora con constructor que coge los números que introduce el usuario, el usuario también elige el operador y en función de eso se hace la operación que corresponda
+### listadeTareas: ejercicio 49 crear lista de tareas sin constructor pasando por argumento una lista, creando una clase con los métodos de mostrar, agregar y quitar
 ## Trabajando con bases de datos
 
 ## Django
