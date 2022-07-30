@@ -21,6 +21,7 @@ Versión usada de Python: Python3
 ## Listas
 
 ## Tuplas
+### contarLetras: ejercicio 3 que muestra la longitud de una tupla, añade un dato a esta y cuenta las letras de cada una de las palabras que forman la tupla
 
 ## Programación orientada a objetos
 
