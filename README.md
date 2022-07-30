@@ -21,7 +21,7 @@ Versión usada de Python: Python3
 ## Matrices
 
 ### ordenarMatriz: ejercicio 4 que pide ordenar cada una de las filas de una matriz primero de menor a mayor y luego de mayor a menor
-
+### calcularSubtotal: ejercicio 30 pide elegir 6 artículos de productos de una matriz (siempre y cuando el stock no sea 0) y cacular el subtotal y total
 ## Listas
 
 ## Tuplas
