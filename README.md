@@ -1,4 +1,4 @@
-# 46 EJERCÍCIOS DE PYTHON
+# 50 EJERCÍCIOS DE PYTHON
 
 ## EJERCÍCIOS DE PYTHON PARA REFORZAR LA LÓGICA DE PROGRAMACIÓN Y REPASAR CONCEPTOS
 Versión usada de Python: Python3
@@ -17,6 +17,10 @@ Versión usada de Python: Python3
 ## Diccionarios
 
 ### botEliza: ejercicio 46 sobre crear un bot mediante un diccionario
+
+## Matrices
+
+### ordenarMatriz: ejercicio 4 que pide ordenador cada una de las filas de una matriz primero de menor a mayor y luego de mayor a menor
 
 ## Listas
 
