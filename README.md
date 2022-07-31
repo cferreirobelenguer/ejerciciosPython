@@ -14,6 +14,7 @@ Versión usada de Python: Python3
 ### generosEdades: ejercicio 21 sobre hacer recuento de asistentes de un evento por género y edades usando estructuras de control
 ### numeroPerfecto: ejercicio 22 determinar si un número x es perfecto, si la suma de sus divisores es el mismo número, usando estructuras de control
 ### verificarEmail: ejercicio 31, se pide al usuario que introduzca un correo y se verifica si es correo o no, (es correo si tiene @)
+### mayorDigito: ejercicio 17 introducir un valor y calcular el valor mayor de sus dígitos
 
 
 ## Diccionarios
