@@ -1,15 +1,22 @@
 """
 Dado un número natural obtener el mayor de sus dígitos
+
 """
 
 def calcular():
 
     print("Introduce un número")
-    numero=int(input())
+    numero=input()
     max=0
-    for i in range(numero):
-        if(i>max):
-            max=i
+    lista=[]
+    for i in numero:
+        lista.append(i)
+
+    for j in lista:
+        valor=int(j)
+        if (valor>max):
+            max=valor
+
     print(f"El valor máximo de los dígitos de {numero} es {max}")
 
 calcular()
