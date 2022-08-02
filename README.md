@@ -1,4 +1,4 @@
-# 50 EJERCÍCIOS DE PYTHON
+# EJERCÍCIOS DE PYTHON
 
 ## EJERCÍCIOS DE PYTHON PARA REFORZAR LA LÓGICA DE PROGRAMACIÓN Y REPASAR CONCEPTOS
 Versión usada de Python: Python3
@@ -9,6 +9,7 @@ Versión usada de Python: Python3
 
 ### invertirPalabra: ejercicio 1 de invertir una palabra que introduce el usuario
 ### numeroPrimo: ejercicio 2 dice si un número pasado por parámetro en la función es primo o no
+### parImpar: ejercicio 5 pedir al usuario un número del 1 a 1000 y decir si es par o impar
 ### multiplos: ejercicio 18 dados tres números mostrar los múltiplos de A, menores que B y que no sean dividores de C usando estructuras de control
 ### combinaciones: ejercicio 20 sobre mostrar la combinación mayor de 3 números usando estructuras de control
 ### generosEdades: ejercicio 21 sobre hacer recuento de asistentes de un evento por género y edades usando estructuras de control
