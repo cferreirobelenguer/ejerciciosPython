@@ -36,6 +36,7 @@ Versión usada de Python: Python3
 ### contarLetras: ejercicio 3 que muestra la longitud de una tupla, añade un dato a esta y cuenta las letras de cada una de las palabras que forman la tupla
 
 ## Programación orientada a objetos
+### cochesMotosPOO: ejercicio 44 crea clase vehiculo con atributos color y ruedas, la clase coche hereda de vehculo y tiene velocidad en km y cilindrada cc de atributos; la clase bicicleta hereda de vehículo con el atributo urbana. De coche hereda camioneta con carga kg y de bicicleta hereda motocicleta con atributos de velocidad km/h y cilindrada cc. Métodos catalogar que muestra el color del auto y en coche y bicicleta sobreescribir la función catalogar para que muestre las ruedas también.
 ### luchaPOO: ejercicio 45 crear dos clases una de Luchadores cuyos atributos son nombre, kit, ssj, ataque, defensa y vida y el método es Atacar; y otra clase Batalla que actúa como menú llamando en sus atributos a los luchadores y comenzando la batalla por turnos. Si el jugador es atacado pierde vida
 ### personaPOO: ejercicio 47 crear clase persona con constructir con atributos nombre, edad y dni, y método que muestre la edad del objeto y otro que diga si es mayor de edad o no
 ### calculadoraPOO: ejercicio 48 crear calculadora con constructor que coge los números que introduce el usuario, el usuario también elige el operador y en función de eso se hace la operación que corresponda
