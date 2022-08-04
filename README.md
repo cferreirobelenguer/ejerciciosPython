@@ -45,6 +45,7 @@ Versión usada de Python: Python3
 ### revertir: ejercicio 50 revertir una lista a través de POO tomando como atributo la lista y usando los métodos revertir y mostrarFrase.
 
 ## Dataframe, tratamiento de datos con librería Pandas
+### pandasExcel: ejercicio 41 leer los datos de nombre y correo de un excel con pandas
 ### pandasHtml: ejercicio 42 Leer los datos de una tabla html con Pandas
 ### proyectoPandas: ejercicio 43 Crear un archivo csv y leer el contenido de sus datos mediante creando un dataframe con pandas.
 
