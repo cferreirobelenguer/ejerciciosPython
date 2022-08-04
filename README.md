@@ -44,6 +44,10 @@ Versión usada de Python: Python3
 ### listadeTareas: ejercicio 49 crear lista de tareas sin constructor pasando por argumento una lista, creando una clase con los métodos de mostrar, agregar y quitar
 ### revertir: ejercicio 50 revertir una lista a través de POO tomando como atributo la lista y usando los métodos revertir y mostrarFrase.
 
+## Dataframe, tratamiento de datos con librería Pandas
+
+### proyectoPandas: ejercicio 43 Crear un archivo csv y leer el contenido de sus datos mediante creando un dataframe con pandas.
+
 ## Trabajando con bases de datos
 
 ## Django
