@@ -18,7 +18,8 @@ Versión usada de Python: Python3
 ### mayorDigito: ejercicio 17 introducir un valor y calcular el valor mayor de sus dígitos
 
 
-## Diccionarios
+## Diccionario
+
 ### monedas: ejercicio 6 Escribir un programa que guarde en una variable el diccionario {'Euro':'€', 'Dollar':'$', 'Yen':'¥'}, pregunte al usuario por una divisa y muestre su símbolo o un mensaje de aviso si la divisa no está en el diccionario.
 ### frutas: ejercicio 7 Escribir un programa que guarde en un diccionario los precios de las frutas de la tabla, pregunte al usuario por una fruta, un número de kilos y muestre por pantalla el precio de ese número de kilos de fruta. Si la fruta no está en el diccionario debe mostrar un mensaje informando de ello.
 ### creditos: ejercicio 8 Escribir un programa que almacene el diccionario con los créditos de las asignaturas de un curso {'Matemáticas': 6, 'Física': 4, 'Química': 5} y después muestre por pantalla los créditos de cada asignatura en el formato <asignatura> tiene <créditos> créditos, donde <asignatura> es cada una de las asignaturas del curso, y <créditos> son sus créditos. Al final debe mostrar también el número total de créditos del curso.
@@ -35,6 +36,7 @@ Versión usada de Python: Python3
 
 ## Listas
 
+### contadorVocales: ejercicio 12 , Escribir un programa que pida al usuario una palabra y muestre por pantalla el número de veces que contiene cada vocal. Contar también el número de consonantes que aparecen en la palabra. Mostrar todos los datos en matriz tabulada
 ### consonantesVocales: ejercicio 26 , dada una lista con palabras contar las consonantes y vocales
 
 ## Tuplas
@@ -42,6 +44,7 @@ Versión usada de Python: Python3
 ### contarLetras: ejercicio 3 que muestra la longitud de una tupla, añade un dato a esta y cuenta las letras de cada una de las palabras que forman la tupla
 
 ## Programación orientada a objetos
+
 ### cochesMotosPOO: ejercicio 44 crea clase vehiculo con atributos color y ruedas, la clase coche hereda de vehculo y tiene velocidad en km y cilindrada cc de atributos; la clase bicicleta hereda de vehículo con el atributo urbana. De coche hereda camioneta con carga kg y de bicicleta hereda motocicleta con atributos de velocidad km/h y cilindrada cc. Métodos catalogar que muestra el color del auto y en coche y bicicleta sobreescribir la función catalogar para que muestre las ruedas también.
 ### luchaPOO: ejercicio 45 crear dos clases una de Luchadores cuyos atributos son nombre, kit, ssj, ataque, defensa y vida y el método es Atacar; y otra clase Batalla que actúa como menú llamando en sus atributos a los luchadores y comenzando la batalla por turnos. Si el jugador es atacado pierde vida
 ### personaPOO: ejercicio 47 crear clase persona con constructir con atributos nombre, edad y dni, y método que muestre la edad del objeto y otro que diga si es mayor de edad o no
@@ -50,6 +53,7 @@ Versión usada de Python: Python3
 ### revertir: ejercicio 50 revertir una lista a través de POO tomando como atributo la lista y usando los métodos revertir y mostrarFrase.
 
 ## Dataframe, tratamiento de datos con librería Pandas
+
 ### pandasExcel: ejercicio 41 leer los datos de nombre y correo de un excel con pandas
 ### pandasHtml: ejercicio 42 Leer los datos de una tabla html con Pandas
 ### proyectoPandas: ejercicio 43 Crear un archivo csv y leer el contenido de sus datos mediante creando un dataframe con pandas.
