@@ -54,6 +54,13 @@ Versión usada de Python: Python3
 
 ## Dataframe, tratamiento de datos con librería Pandas
 
+### datosDataframe: ejerccio 40 Escribir programa que genere y muestre por pantalla un DataFrame con los datos de la tabla siguiente. Calculamos el total de ventas, total de gastos, el mínimo y máximo de ventas y el mínimo y máximo de gastos:
+Mes	Ventas	Gastos
+Enero	30500	22000
+Febrero	35600	23400
+Marzo	28300	18100
+Abril	33900	20700
+
 ### pandasExcel: ejercicio 41 leer los datos de nombre y correo de un excel con pandas
 ### pandasHtml: ejercicio 42 Leer los datos de una tabla html con Pandas
 ### proyectoPandas: ejercicio 43 Crear un archivo csv y leer el contenido de sus datos mediante creando un dataframe con pandas.
