@@ -54,6 +54,7 @@ Versión usada de Python: Python3
 
 ## Dataframe, tratamiento de datos con librería Pandas
 
+### cotizacionesBolsa: ejercicio 39 El fichero cotizacion.csv contiene las cotizaciones de las empresas del IBEX35 con las siguientes columnas: nombre (nombre de la empresa), Final (precio de la acción al cierre de bolsa), Máximo (precio máximo de la acción durante la jornada), Mínimo (precio mínimo de la acción durante la jornada), volumen (Volumen al cierre de bolsa), Efectivo (capitalización al cierre en miles de euros). Construir una función que construya un DataFrame a partir del un fichero con el formato anterior y devuelva otro DataFrame con el mínimo, el máximo y la media de dada columna.
 ### datosDataframe: ejerccio 40 Escribir programa que genere y muestre por pantalla un DataFrame con los datos de la tabla siguiente. Calculamos el total de ventas, total de gastos, el mínimo y máximo de ventas y el mínimo y máximo de gastos:
 Mes	Ventas	Gastos
 Enero	30500	22000
