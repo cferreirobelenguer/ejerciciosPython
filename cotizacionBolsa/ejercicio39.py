@@ -4,7 +4,7 @@ El fichero cotizacion.csv contiene las cotizaciones de las empresas del IBEX35 c
 nombre (nombre de la empresa), Final (precio de la acción al cierre de bolsa), Máximo (precio máximo de la 
 acción durante la jornada), Mínimo (precio mínimo de la acción durante la jornada), volumen (Volumen al cierre de bolsa),
 Efectivo (capitalización al cierre en miles de euros). Construir una función que construya un DataFrame a partir del un 
-fichero con el formato anterior y devuelva otro DataFrame con el mínimo, el máximo y la media de dada columna.
+fichero con el formato anterior y devuelva otro DataFrame con el mínimo, el máximo y la media de cada columna.
 
 """
 import pandas as pd
