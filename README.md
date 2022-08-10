@@ -46,6 +46,11 @@ Versión usada de Python: Python3
 
 ### contadorVocales: ejercicio 12 , Escribir un programa que pida al usuario una palabra y muestre por pantalla el número de veces que contiene cada vocal. Contar también el número de consonantes que aparecen en la palabra. Mostrar todos los datos en matriz tabulada
 ### numerosInversos: ejercicio 13 Escribir un programa que almacene en una lista los números del 1 al 10 y los muestre por pantalla en orden inverso separados por comas.
+### comunesNoComunes: ejercicio 25 Crea una función que reciba dos array, un booleano y retorne un array.
+- Si el booleano es verdadero buscará y retornará los elementos comunes de los dos array.
+- Si el booleano es falso buscará y retornará los elementos no comunes de los dos array.
+- No se pueden utilizar operaciones del lenguaje que lo resuelvan directamente.
+
 ### consonantesVocales: ejercicio 26 , dada una lista con palabras contar las consonantes y vocales
 
 ## Tuplas
