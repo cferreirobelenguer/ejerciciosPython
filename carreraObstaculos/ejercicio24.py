@@ -19,22 +19,33 @@ carreraGrafico="-|--"
 
 def comprobarCarrera(carrera,carreraGrafico):
     
-    incorrecto=False
-
-    for i in range(len(carrera)):
-            print("resultado: ",carrera[i]," grafico: ",carreraGrafico[i])
-            if((carrera[i]=="run")and(carreraGrafico[i]=="-")):
-                print("correcto")
-            elif((carrera[i]=="jump")and(carreraGrafico[i]=="|")):
-                print("correcto")
-            else:
-                print("incorrecto")
-                incorrecto=True
-            
-    
-
-    if(incorrecto==True):
+    resultados=[]
+    #Si las longitudes de la lista y el string no coinciden se da como nula la carrera
+    if(((len(carrera))!=(len(carreraGrafico)))):
         print("El corredor no ha finalizado la carrera correctamente")
     else:
-        print("El corredor ha finalizado la carrera correctamente")
+        #Se va rellenando el resultado
+        for i in range(len(carrera)):
+                print("resultado: ",carrera[i]," grafico: ",carreraGrafico[i])
+                # Si es jump y - se rellena x
+                if((carrera[i]=="jump")and(carreraGrafico[i]=="-")):
+                    resultados.append("x")
+                elif((carrera[i]=="run")and(carreraGrafico[i]=="|")):
+                #Si es run y | se rellena /
+                    resultados.append("/")
+        #Excepción que maneja el error que retorna cuando no se encuentra la cadena x o /, lo convierte en -1
+        try:
+            resultadosx=resultados.index("x")
+            resultadosy=resultados.index("/")
+        except:
+            resultadosx=-1
+            resultadosy=-1
+        print("Estos son los resultados del jurado: ",resultados)
+        #Si hay resultados se retorna una decisión del jurado en caso de que haya x e /
+        #Si la lista de resultados está vacía es que la carrera es correcta
+        if((len(resultados)>0)):
+            if((resultadosx==-1)or(resultadosy==-1)):
+                print("El corredor no ha finalizado la carrera correctamente")
+        else:
+            print("El corredor ha finalizado la carrera correctamente")
 comprobarCarrera(carrera,carreraGrafico)
