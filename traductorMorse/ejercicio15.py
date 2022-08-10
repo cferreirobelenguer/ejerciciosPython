@@ -13,6 +13,8 @@ alfabeto={"a":".-","b":"-...","c":"-.-.","d":"-..","e":".","f":"..-.","g":"--.",
 def traducirMorse(alfabeto):
     print("Introduce palabra")
     palabra=input()
+    #Pasamos a minúsculas todas las letras porque el diccionario está en mayúscula
+    palabra=palabra.lower()
     contador=0
     traduccion=""
     #Reemplazamos los espacios por asteriscos
