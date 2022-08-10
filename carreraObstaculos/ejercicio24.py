@@ -4,7 +4,7 @@ LA CARRERA DE OBSTÁCULOS
 Enunciado: Crea una función que evalúe si un/a atleta ha superado correctamente una
 carrera de obstáculos.
 La función recibirá dos parámetros:
-    - Un array que sólo puede contener String con las palabras "run" o "jump"
+    - Una tupla que sólo puede contener String con las palabras "run" o "jump"
     - Un String que represente la pista y sólo puede contener "_" (suelo) o "|" (valla)
     - La función imprimirá cómo ha finalizado la carrera:
     - Si el/a atleta hace "run" en "_" (suelo) y "jump" en "|" (valla) será correcto y no
