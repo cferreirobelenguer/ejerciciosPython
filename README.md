@@ -10,13 +10,18 @@ Versión usada de Python: Python3
 ### invertirPalabra: ejercicio 1 de invertir una palabra que introduce el usuario
 ### numeroPrimo: ejercicio 2 dice si un número pasado por parámetro en la función es primo o no
 ### parImpar: ejercicio 5 pedir al usuario un número del 1 a 1000 y decir si es par o impar
+### mayorDigito: ejercicio 17 introducir un valor y calcular el valor mayor de sus dígitos
 ### multiplos: ejercicio 18 dados tres números mostrar los múltiplos de A, menores que B y que no sean dividores de C usando estructuras de control
+### FIZZBUZZ: ejercicio 19 EL FAMOSO "FIZZ BUZZ". Enunciado: Escribe un programa que muestre por consola (con un print) los números de 1 a 100 (ambos incluidos y con un salto de línea entre cada impresión), sustituyendo los siguientes:
+- Múltiplos de 3 por la palabra "fizz".
+- Múltiplos de 5 por la palabra "buzz".
+- Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
 ### combinaciones: ejercicio 20 sobre mostrar la combinación mayor de 3 números usando estructuras de control
 ### generosEdades: ejercicio 21 sobre hacer recuento de asistentes de un evento por género y edades usando estructuras de control
 ### numeroPerfecto: ejercicio 22 determinar si un número x es perfecto, si la suma de sus divisores es el mismo número, usando estructuras de control
 ### verificarEmail: ejercicio 31, se pide al usuario que introduzca un correo y se verifica si es correo o no, (es correo si tiene @)
 ### anagrama: ejercicio 16 Enunciado: Escribe una función que reciba dos palabras (String) y retorne verdadero o falso (Boolean) según sean o no anagramas. Un Anagrama consiste en formar una palabra reordenando TODAS las letras de otra palabra inicial. NO hace falta comprobar que ambas palabras existan. Dos palabras exactamente iguales no son anagrama.
-### mayorDigito: ejercicio 17 introducir un valor y calcular el valor mayor de sus dígitos
+
 
 
 ## Diccionario
