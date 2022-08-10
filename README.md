@@ -37,11 +37,13 @@ Versión usada de Python: Python3
 ## Listas
 
 ### contadorVocales: ejercicio 12 , Escribir un programa que pida al usuario una palabra y muestre por pantalla el número de veces que contiene cada vocal. Contar también el número de consonantes que aparecen en la palabra. Mostrar todos los datos en matriz tabulada
+### numerosInversos: ejercicio 13 Escribir un programa que almacene en una lista los números del 1 al 10 y los muestre por pantalla en orden inverso separados por comas.
 ### consonantesVocales: ejercicio 26 , dada una lista con palabras contar las consonantes y vocales
 
 ## Tuplas
 
 ### contarLetras: ejercicio 3 que muestra la longitud de una tupla, añade un dato a esta y cuenta las letras de cada una de las palabras que forman la tupla
+### segundoGrande: ejercicio 14 Dado una tupla de números encuentra el segundo más grande
 
 ## Programación orientada a objetos
 
