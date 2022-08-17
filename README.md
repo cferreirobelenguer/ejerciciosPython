@@ -78,6 +78,12 @@ variará el símbolo de esa parte de la pista.
 ### listadeTareas: ejercicio 49 crear lista de tareas sin constructor pasando por argumento una lista, creando una clase con los métodos de mostrar, agregar y quitar
 ### revertir: ejercicio 50 revertir una lista a través de POO tomando como atributo la lista y usando los métodos revertir y mostrarFrase.
 
+## Archivos
+
+### leerArchivos: ejercicio 28 crear un archivo en cmd , escribir contenido mendiante comandos y leer su contenido linea por linea y pasarlo a una lista
+### leerArchivos2: ejercicio 30 crear un archivo en cmd , escribir contenido mediante comandos y leer su contenido de golpe
+
+
 ## Dataframe, tratamiento de datos con librería Pandas
 
 ### cotizacionesBolsa: ejercicio 39 El fichero cotizacion.csv contiene las cotizaciones de las empresas del IBEX35 con las siguientes columnas: nombre (nombre de la empresa), Final (precio de la acción al cierre de bolsa), Máximo (precio máximo de la acción durante la jornada), Mínimo (precio mínimo de la acción durante la jornada), volumen (Volumen al cierre de bolsa), Efectivo (capitalización al cierre en miles de euros). Construir una función que construya un DataFrame a partir del un fichero con el formato anterior y devuelva otro DataFrame con el mínimo, el máximo y la media de dada columna.
