@@ -54,6 +54,8 @@ Versión usada de Python: Python3
 
 ### consonantesVocales: ejercicio 26 , dada una lista con palabras contar las consonantes y vocales
 
+### fibonacci: ejercicio 33 , Dado un número, mostrar su serie de fibonacci. La serie de fibonacci es un orden de números donde cada número es la suma de los dos anteriores.
+
 ## Tuplas
 
 ### contarLetras: ejercicio 3 que muestra la longitud de una tupla, añade un dato a esta y cuenta las letras de cada una de las palabras que forman la tupla
