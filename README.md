@@ -22,7 +22,14 @@ Versión usada de Python: Python3
 ### Armstrong: ejercicio 23 Decir si un número es armstrong o no
 ### verificarEmail: ejercicio 31, se pide al usuario que introduzca un correo y se verifica si es correo o no, (es correo si tiene @)
 ### anagrama: ejercicio 16 Enunciado: Escribe una función que reciba dos palabras (String) y retorne verdadero o falso (Boolean) según sean o no anagramas. Un Anagrama consiste en formar una palabra reordenando TODAS las letras de otra palabra inicial. NO hace falta comprobar que ambas palabras existan. Dos palabras exactamente iguales no son anagrama.
+### acronimo: ejercicio 34 buscar acrónimo de una organización.
+### infoCorreo: ejercicio 35 Extractor de información del correo electrónico
+Recopile una dirección de correo electrónico del usuario y luego averigüe si el usuario tiene un nombre de dominio personalizado o un nombre de dominio popular. Por ejemplo
 
+Recopilamos una dirección de correo electrónico del usuario y luego vamos a averiguar si ese email tiene nombre de dominio personalizado o un nombre de un dominio popular. Por ejemplo:
+
+Entrada: mary.jane@gmail.com
+Salida: Hola Mary, estoy viendo que tu email está registrado con Google. ¡Eso es genial!.
 
 
 ## Diccionario
