@@ -30,6 +30,7 @@ Recopilamos una dirección de correo electrónico del usuario y luego vamos a av
 
 Entrada: mary.jane@gmail.com
 Salida: Hola Mary, estoy viendo que tu email está registrado con Google. ¡Eso es genial!.
+### calcularPropinas: ejercicio 36 Se pide la factura y se pide al cliente que elija la propina (18%,20% y 25%), se calcula la propina delegida, y el total de la factura incluida la propina
 
 
 ## Diccionario
