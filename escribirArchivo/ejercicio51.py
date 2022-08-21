@@ -2,10 +2,10 @@
 Escribir un programa para gestionar un listín telefónico con los nombres 
 y los teléfonos de los clientes de una empresa. El programa incorporar 
 funciones crear el fichero con el listín si no existe, para consultar el 
-teléfono de un cliente, añadir el teléfono de un nuevo cliente y eliminar 
-el teléfono de un cliente. El listín debe estar guardado en el fichero de 
-texto listin.txt donde el nombre del cliente y su teléfono deben aparecer 
-separados por comas y cada cliente en una línea distinta.
+nombre de un cliente y mostrar su teléfono, añadir el teléfono de un nuevo
+cliente y eliminar el teléfono de un cliente. El listín debe estar guardado
+en el fichero de texto listin.txt donde el nombre del cliente y su teléfono
+deben aparecer separados por comas y cada cliente en una línea distinta.
 (en proceso sin terminar)
 
 """
@@ -15,6 +15,7 @@ def gestionListin():
         #En caso de que exista el archivo de listin se abre
         file=open("archivo.txt","r+")
         contador=0
+        #5 oportunidades para escoger opción
         while(contador!=5):
             #Menú de opciones
             print("¿Qué quieres hacer?")
@@ -23,6 +24,8 @@ def gestionListin():
             print("Pulsa 3 si quieres eliminar un contacto")
             decision=input()
             esta=False
+            estaBusqueda=False
+            palabra=""
             if(decision=="1"):
                 #Se añade un nuevo contacto
                 file=open("archivo.txt","r+")
@@ -34,7 +37,6 @@ def gestionListin():
                     if(contactoNuevo not in i):
                         print("No esta")
                     else:
-                        print(i)
                         esta=True
                 if(esta!=True):    
                     print("Introduce el número a añadir")
@@ -46,10 +48,25 @@ def gestionListin():
                     print("Ya está añadido el contacto")
                 file.close()
             elif(decision=="2"):
+                #se busca un contacto
                 print("Introduce el contacto a buscar")
                 contador+=1
                 contactoBusqueda=input()
-        
+                file=open("archivo.txt","r+")
+                archivo=file.readlines()
+                for i in archivo:
+                    if(contactoBusqueda not in i):
+                        print("No esta")
+                    else:
+                        posicion=i.index(",")
+                        palabra=i[posicion+1::]
+                        estaBusqueda=True
+                print(estaBusqueda)
+                if(estaBusqueda==True):
+                    print("El contacto ",contactoBusqueda,"está dentro del listín, y el número es ",palabra)
+                else:
+                    print("El contacto no está en el listín")
+                file.close()
             elif(decision=="3"):
                 elimina=False
                 file=open("archivo.txt","r+")
@@ -61,17 +78,17 @@ def gestionListin():
                     if(contactoElimina not in palabra):
                         print("No se elimina")
                         lista.append(palabra)
-                        
                     else:
                         print("Se elimina")
                         elimina=True
-                file.truncate()
                 if(elimina==True):
+                    file.truncate()
                     print(lista)
                     for i in lista:
                         print(i)
                         file.write(i+"\n")
                     print("Contacto eliminado")
+            
                 
                 
                 file.close()
