@@ -93,7 +93,9 @@ variará el símbolo de esa parte de la pista.
 
 ### leerArchivos: ejercicio 28 crear un archivo en cmd , escribir contenido mendiante comandos y leer su contenido linea por linea y pasarlo a una lista
 ### leerArchivos2: ejercicio 30 crear un archivo en cmd , escribir contenido mediante comandos y leer su contenido de golpe
-
+### contarLineas: ejercicio 38 Files exercise. Write a function which count number of lines and number of words in a text. All the files are in the data the folder: a) Read obama_speech.txt file and count number of lines and words
+### contarRepes: ejercicio 52 JSON: Pasar archivo json a diccionario. Mostrar un listado con los toppings no repetidos, y mostrar un listado con los toppings repetidos
+### escribirArchivo: ejercicio 51 Escribir un programa para gestionar un listín telefónico con los nombres y los teléfonos de los clientes de una empresa. El programa incorporar funciones crear el fichero con el listín si no existe, para consultar el teléfono de un cliente, añadir el teléfono de un nuevo cliente y eliminar el teléfono de un cliente. El listín debe estar guardado en el fichero de texto listin.txt donde el nombre del cliente y su teléfono deben aparecer separados por comas y cada cliente en una línea distinta. (en proceso sin terminar)
 
 ## Dataframe, tratamiento de datos con librería Pandas
 
