@@ -64,6 +64,7 @@ Salida: Hola Mary, estoy viendo que tu email está registrado con Google. ¡Eso 
 ### consonantesVocales: ejercicio 26 , dada una lista con palabras contar las consonantes y vocales
 
 ### fibonacci: ejercicio 33 , Dado un número, mostrar su serie de fibonacci. La serie de fibonacci es un orden de números donde cada número es la suma de los dos anteriores.
+### numerosPerdidos: ejercicio 53 Dado un array de enteros ordenado y sin repetidos, crea una función que calcule  y retorne todos los que faltan entre el mayor y el menor. Lanza un error si el array de entrada no es correcto (si está vacío o contiene repetidos).
 
 ## Tuplas
 
