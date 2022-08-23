@@ -5,12 +5,13 @@ crea una función que calcule  y retorne todos los que faltan entre
 el mayor y el menor.
 Lanza un error si el array de entrada no es correcto (si está vacío o contiene repetidos).
 """
-lista=[56,3,57,78,543]
+lista=[4,5,12,1,30]
 noRepes=[]
 
 
 def tieneRepes(lista):
     tiene=False
+    #Se verifica si lista tiene repetidos creando otra nueva lista
     for i in lista:
         if(i not in noRepes):
             noRepes.append(i)
