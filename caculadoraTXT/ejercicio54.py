@@ -9,20 +9,11 @@ Enunciado: Lee el fichero "Challenge21.txt" incluido en el proyecto, calcula su 
     - Si el formato del .txt no es correcto, se indicará que no se han podido resolver las operaciones.
 
 """
-def calcular():
+def operar(operacion):
     num1multi=0
     num2multi=0
     num1divi=0
-    num2divi=0
-    operacion=[]
-    file=open("archivo.txt")
-    #Hemos quitado el /n del archivo en función de la longitud y hemos pasado los datos a una lista para poder operar con ellos
-    for linea in file:
-            if(len(linea)==2):
-                operacion.append(linea[0:1])
-            else:
-                operacion.append(linea[0:2])
-        
+    num2divi=0   
     for digi in range(len(operacion)):
         #En caso de haber multiplicaciones o divisiones calculamos primero por prioridad de operaciones matemáticas
         if(operacion[digi]=="*"):
@@ -49,6 +40,18 @@ def calcular():
     #Se calcula el resultado con eval
     print("El resultado es ",eval(resultado))
 
+def calcular():
+    
+    operacion=[]
+    file=open("archivo.txt")
+    #Hemos quitado el /n del archivo en función de la longitud y hemos pasado los datos a una lista para poder operar con ellos
+    for linea in file:
+            if(len(linea)==2):
+                operacion.append(linea[0:1])
+            else:
+                operacion.append(linea[0:2])
+    
     file.close()
+    operar(operacion)
 
 calcular()
