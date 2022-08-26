@@ -97,6 +97,12 @@ variará el símbolo de esa parte de la pista.
 ### contarLineas: ejercicio 38 Files exercise. Write a function which count number of lines and number of words in a text. All the files are in the data the folder: a) Read obama_speech.txt file and count number of lines and words
 ### contarRepes: ejercicio 52 JSON: Pasar archivo json a diccionario. Mostrar un listado con los toppings no repetidos, y mostrar un listado con los toppings repetidos
 ### escribirArchivo: ejercicio 51 Escribir un programa para gestionar un listín telefónico con los nombres y los teléfonos de los clientes de una empresa. El programa incorporar funciones crear el fichero con el listín si no existe, para consultar el nombre de un cliente y mostrar su teléfono, añadir el teléfono de un nuevo cliente,consultar el teléfono de un cliente y mostrar su nombre o eliminar contacto. El listín debe estar guardado en el fichero de texto archivo.txt donde el nombre del cliente y su teléfono deben aparecer separados por comas y cada cliente en una línea distinta.(en proceso sin terminar)
+### calcularoraTXT: ejercicio 54 Lee el fichero "Challenge21.txt" incluido en el proyecto, calcula su resultado e imprímelo.
+    - El .txt se corresponde con las entradas de una calculadora.
+    - Cada línea tendrá un número o una operación representada por un símbolo (alternando ambos).
+    - Soporta números enteros y decimales.
+    - Soporta las operaciones suma "+", resta "-", multiplicación "*" y división "/".
+    - El resultado se muestra al finalizar la lectura de la última línea (si el .txt es correcto).
 
 ## Dataframe, tratamiento de datos con librería Pandas
 
