@@ -2,6 +2,16 @@
 
 ## EJERCÍCIOS DE PYTHON PARA REFORZAR LA LÓGICA DE PROGRAMACIÓN Y REPASAR CONCEPTOS
 Versión usada de Python: Python3
+## CONTENIDO:
+- Estructuras de control y cadenas de caracteres
+- Diccionario
+- Matrices
+- Listas
+- Tuplas
+- Programación orientada a objetos y herencia
+- Archivos
+- Dataframe, tratamiento de datos con librería Pandas
+- Bases de datos sql
 
 # INDICE DE EJERCICIOS
 
@@ -85,7 +95,7 @@ variará el símbolo de esa parte de la pista.
     - La función retornará un Boolean que indique si ha superado la carrera.
 
 
-## Programación orientada a objetos
+## Programación orientada a objetos y herencia
 
 ### cochesMotosPOO: ejercicio 44 crea clase vehiculo con atributos color y ruedas, la clase coche hereda de vehculo y tiene velocidad en km y cilindrada cc de atributos; la clase bicicleta hereda de vehículo con el atributo urbana. De coche hereda camioneta con carga kg y de bicicleta hereda motocicleta con atributos de velocidad km/h y cilindrada cc. Métodos catalogar que muestra el color del auto y en coche y bicicleta sobreescribir la función catalogar para que muestre las ruedas también.
 ### luchaPOO: ejercicio 45 crear dos clases una de Luchadores cuyos atributos son nombre, kit, ssj, ataque, defensa y vida y el método es Atacar; y otra clase Batalla que actúa como menú llamando en sus atributos a los luchadores y comenzando la batalla por turnos. Si el jugador es atacado pierde vida
