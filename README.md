@@ -122,6 +122,7 @@ variará el símbolo de esa parte de la pista.
     - Soporta números enteros y decimales.
     - Soporta las operaciones suma "+", resta "-", multiplicación "*" y división "/".
     - El resultado se muestra al finalizar la lectura de la última línea (si el .txt es correcto).
+### quitarSalto ejercicio 61. Dado un archivo txt quitar los saltos de línea
 
 ## Generadores
 
