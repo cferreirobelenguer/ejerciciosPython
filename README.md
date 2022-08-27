@@ -9,6 +9,7 @@ Versión usada de Python: Python3
 - Listas
 - Tuplas
 - Programación orientada a objetos y herencia
+- Generadores
 - Archivos
 - Dataframe, tratamiento de datos con librería Pandas
 - Bases de datos sql
@@ -122,6 +123,10 @@ variará el símbolo de esa parte de la pista.
     - Soporta las operaciones suma "+", resta "-", multiplicación "*" y división "/".
     - El resultado se muestra al finalizar la lectura de la última línea (si el .txt es correcto).
 
+## Generadores
+
+### listaInfinita: ejercicio 59 Crear una función generadora para iterar un límite con generadores. Llamar a esta función generadora 10 veces usando un contador.
+
 ## Dataframe, tratamiento de datos con librería Pandas
 
 ### cotizacionesBolsa: ejercicio 39 El fichero cotizacion.csv contiene las cotizaciones de las empresas del IBEX35 con las siguientes columnas: nombre (nombre de la empresa), Final (precio de la acción al cierre de bolsa), Máximo (precio máximo de la acción durante la jornada), Mínimo (precio mínimo de la acción durante la jornada), volumen (Volumen al cierre de bolsa), Efectivo (capitalización al cierre en miles de euros). Construir una función que construya un DataFrame a partir del un fichero con el formato anterior y devuelva otro DataFrame con el mínimo, el máximo y la media de dada columna.
@@ -143,5 +148,6 @@ Abril	33900	20700
 - Mostrar el primer registro de la bbdd
 - Mostrar todos los registros de la bbdd
 ### bbddPersonas: ejercicio 58. Insertar datos dentro de la bbdd personas
+
 
 
