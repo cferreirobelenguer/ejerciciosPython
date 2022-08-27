@@ -136,11 +136,12 @@ Abril	33900	20700
 ### pandasHtml: ejercicio 42 Leer los datos de una tabla html con Pandas
 ### proyectoPandas: ejercicio 43 Crear un archivo csv y leer el contenido de sus datos mediante creando un dataframe con pandas.
 
-## Trabajando con bases de datos
+## Bases de datos
 
 ### bbddPersonas: ejercicio 57 BBDD. Crear una tabla personas con datos de id (autoincrementable, not null, y clave primaria), nombre (texto, not null), apellidos (texto, not null), documento (texto not null), fecha (integer, not null, única); e introduce datos en DB Browser for SQLite. Una vez hecho esto:
 - Conectar con la bbdd
 - Mostrar el primer registro de la bbdd
 - Mostrar todos los registros de la bbdd
+### bbddPersonas: ejercicio 58. Insertar datos dentro de la bbdd personas
 
 
