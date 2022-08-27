@@ -125,7 +125,8 @@ variará el símbolo de esa parte de la pista.
 
 ## Generadores
 
-### listaInfinita: ejercicio 59 Crear una función generadora para iterar un límite con generadores. Llamar a esta función generadora 10 veces usando un contador.
+### listaGenerador: ejercicio 59 Crear una función generadora para iterar un límite que viene dado por parámetro con generadores. Llamar a esta función generadora 10 veces usando un contador.
+### generadoresEnlazados: ejercicio 60 Crear dos generadores que enlazan en una iteración cuando se itera un límite que viene dado por parámetro. Iterar sólo los 4 primeros.
 
 ## Dataframe, tratamiento de datos con librería Pandas
 
