@@ -32,7 +32,10 @@ Entrada: mary.jane@gmail.com
 Salida: Hola Mary, estoy viendo que tu email está registrado con Google. ¡Eso es genial!.
 ### calcularPropinas: ejercicio 36 Se pide la factura y se pide al cliente que elija la propina (18%,20% y 25%), se calcula la propina delegida, y el total de la factura incluida la propina
 ### calculoTest: ejercicio 37: Una empresa que realiza pruebas de selecció de personal, necesita conocer el puntaje total obtenido por los candidatos que presenten las pruebas técnicas a un determinado empleo. El puntaje total se calcula del puntaje obtenido por respuestas correctas el obtenido por respuestas incorrectas y en blanco. Por cada respuesta correcta se obtienen 5 puntos, respuesta incorrecta -2 puntos y respuesta en blanco -1 punto. La cantidad total de preguntas que tiene la evaluación son 20.
-
+### mcdMcm: ejercicio 56 
+    Enunciado: Crea dos funciones, una que calcule el máximo común divisor (MCD) 
+    y otra que calcule el mínimo común múltiplo (mcm) de dos números enteros.
+    - No se pueden utilizar operaciones del lenguaje que lo resuelvan directamente.
 
 ## Diccionario
 
