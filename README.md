@@ -152,6 +152,10 @@ Abril	33900	20700
 ### bbddPersonas: ejercicio 58. Insertar datos dentro de la bbdd personas
 ### bbddPersonas: ejercicio 62. Eliminar un registro de la tabla de personas
 ### bbddPersonas: ejercicio 63. Actualizar un dato de un registro en la tabla personas
-
+### bbddPadresHijos: ejercicio 65. CLAVE FORÁNEA Y CONSULTAS DE VARIAS TABLAS
+    - Crear una bbdd de con las tablas de Padres e Hijos cuya clave foránea sea el id del padre,
+    - Rellenar la tabla con datos.
+    - Mostrar el nombre, apellidos del padre; nombre y apellidos de los hijos cuyo id de padre sea 3
+    - Tabular los resultados con titulo de cabecera
 
 
