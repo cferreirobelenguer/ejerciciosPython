@@ -150,6 +150,7 @@ Abril	33900	20700
 - Mostrar el primer registro de la bbdd
 - Mostrar todos los registros de la bbdd
 ### bbddPersonas: ejercicio 58. Insertar datos dentro de la bbdd personas
+### bbddPersonas: ejercicio 62. Eliminar un registro de la tabla de personas
 
 
 
