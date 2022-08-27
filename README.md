@@ -124,5 +124,9 @@ Abril	33900	20700
 
 ## Trabajando con bases de datos
 
+### bbddPersonas: ejercicio 57 BBDD. Crear una tabla personas con datos de id (autoincrementable, not null, y clave primaria), nombre (texto, not null), apellidos (texto, not null), documento (texto not null), fecha (integer, not null, única); e introduce datos en DB Browser for SQLite. Una vez hecho esto:
+- Conectar con la bbdd
+- Mostrar el primer registro de la bbdd
+- Mostrar todos los registros de la bbdd
 
 
