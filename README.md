@@ -63,7 +63,7 @@ Salida: Hola Mary, estoy viendo que tu email está registrado con Google. ¡Eso 
 ### consonantesVocales: ejercicio 26 , dada una lista con palabras contar las consonantes y vocales
 ### fibonacci: ejercicio 33 , Dado un número, mostrar su serie de fibonacci. La serie de fibonacci es un orden de números donde cada número es la suma de los dos anteriores.
 ### numerosPerdidos: ejercicio 53 Dado un array de enteros ordenado y sin repetidos, crea una función que calcule  y retorne todos los que faltan entre el mayor y el menor. Lanza un error si el array de entrada no es correcto (si está vacío o contiene repetidos).
-### eliminarCaracteres: ejercicio 55 Enunciado: Crea dos funciones que reciban dos cadenas como parámetro (str1, str2) e impriman otras dos cadenas como salida (out1, out2).
+### eliminarCaracteres: ejercicio 55 Enunciado: Crea una función que reciba dos cadenas como parámetro (str1, str2) e imprima otras dos cadenas como salida (out1, out2).
     - out1 contendrá todos los caracteres presentes en la str1 pero NO estén presentes en str2.
     - out2 contendrá todos los caracteres presentes en la str2 pero NO estén presentes en str1
 
