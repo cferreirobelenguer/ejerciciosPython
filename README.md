@@ -174,5 +174,6 @@ En el que 0 es barrio de nivel medio o bajo y 1 es barrio de alto nivel.
     - Rellenar la tabla con datos.
     - Mostrar el nombre, apellidos del padre; nombre y apellidos de los hijos cuyo id de padre sea 3
     - Tabular los resultados con titulo de cabecera
+### CRUDCitas: ejercicio 68, Crud de citas que permite crear cita, modificar cita, eliminar cita, ver cita
 
 
