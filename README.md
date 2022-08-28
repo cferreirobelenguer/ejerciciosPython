@@ -148,6 +148,10 @@ Abril	33900	20700
     - Imprimir los datos únicamente de precios y metros
     - Crear archivo csv con los mismos datos y crear dataframe desde esos datos del csv. Mostrar todos sus datos
     - Mostrar los datos de las casas y los precios del dataframe csv
+    - Mostrar los 3 primeros datos del archivo css
+    - Mostrar la media de los precios de las viviendas del dataframe del archivo css
+    - Contar el número de viviendas que hay en el dataframe del archivo css
+    - Máximo precio, mínimo precio, máximos metros y mínimos metros en el dataframe del archivo css
 ### prediccionInmobiliaria: ejercicio 67, PREDICCIÓN INMOBILIARIA CON PANDAS Y SKLEARN
 Crear un archivo llamado barrios.csv con los datos de precio,metros y barrio de viviendas.
 En el que 0 es barrio de nivel medio o bajo y 1 es barrio de alto nivel.
