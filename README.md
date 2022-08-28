@@ -80,6 +80,7 @@ Salida: Hola Mary, estoy viendo que tu email está registrado con Google. ¡Eso 
 ### eliminarCaracteres: ejercicio 55 Enunciado: Crea una función que reciba dos cadenas como parámetro (str1, str2) e imprima otras dos cadenas como salida (out1, out2).
     - out1 contendrá todos los caracteres presentes en la str1 pero NO estén presentes en str2.
     - out2 contendrá todos los caracteres presentes en la str2 pero NO estén presentes en str1
+### ordenarLista: ejercicio 65, Ordenar lista sin usar el método sort
 
 ## Tuplas
 
