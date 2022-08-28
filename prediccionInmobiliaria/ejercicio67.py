@@ -1,5 +1,5 @@
 """
-PREDICCIÓN INMOBILIARIA CON PANDAS, SKLEARN Y STATSMODELS
+PREDICCIÓN INMOBILIARIA CON PANDAS Y SKLEARN
 Crear un archivo llamado barrios.csv con los datos de precio,metros y barrio de viviendas.
 En el que 0 es barrio de nivel medio o bajo y 1 es barrio de alto nivel.
     - Crear dataframe con los datos del csv
