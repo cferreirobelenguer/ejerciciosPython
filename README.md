@@ -148,6 +148,13 @@ Abril	33900	20700
     - Imprimir los datos únicamente de precios y metros
     - Crear archivo csv con los mismos datos y crear dataframe desde esos datos del csv. Mostrar todos sus datos
     - Mostrar los datos de las casas y los precios del dataframe csv
+### prediccionInmobiliaria: ejercicio 67, PREDICCIÓN INMOBILIARIA CON PANDAS, SKLEARN Y STATSMODELS
+Crear un archivo llamado barrios.csv con los datos de precio,metros y barrio de viviendas.
+En el que 0 es barrio de nivel medio o bajo y 1 es barrio de alto nivel.
+    - Crear dataframe con los datos del csv
+    - Crear variable x con datos de los metros y el barrio, estos datos son los que queremos predecir
+    - Crear variable y con los datos del precio, a través de estos datos queremos saber el precio de predición de nuestra vivienda
+    - Obteniendo unos metros y barrio predecir cuánto va a costar la vivienda mediante sklearn a través del dataframe obtenido del csv
 
 ## Bases de datos
 
