@@ -143,6 +143,11 @@ Abril	33900	20700
 ### pandasExcel: ejercicio 41 leer los datos de nombre y correo de un excel con pandas
 ### pandasHtml: ejercicio 42 Leer los datos de una tabla html con Pandas
 ### proyectoPandas: ejercicio 43 Crear un archivo csv y leer el contenido de sus datos mediante creando un dataframe con pandas.
+### dataframe: ejercicio 66 DATAFRAME
+    - Crear dataframe con datos de casas, precios y metros cuadrados e imprimir todos los datos
+    - Imprimir los datos únicamente de precios y metros
+    - Crear archivo csv con los mismos datos y crear dataframe desde esos datos del csv. Mostrar todos sus datos
+    - Mostrar los datos de las casas y los precios del dataframe csv
 
 ## Bases de datos
 
