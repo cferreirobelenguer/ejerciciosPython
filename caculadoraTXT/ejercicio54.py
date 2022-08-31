@@ -14,23 +14,6 @@ def operar(operacion):
     num2multi=0
     num1divi=0
     num2divi=0   
-    for digi in range(len(operacion)):
-        #En caso de haber multiplicaciones o divisiones calculamos primero por prioridad de operaciones matemáticas
-        if(operacion[digi]=="*"):
-            num1multi=operacion[digi-1]
-            num2multi=operacion[digi+1]
-            multi=int(num1multi)*int(num2multi)
-            operacion[digi]=multi
-        elif(operacion[digi]=="/"):
-            num1divi=operacion[digi-1]
-            num2divi=operacion[digi+1]
-            divi=int(num1divi)/int(num2divi)
-            operacion[digi]=divi
-    #Eliminamos los números que ya están calculados de la multiplicación y división
-    operacion.remove(num1multi)
-    operacion.remove(num2multi)
-    operacion.remove(num1divi)
-    operacion.pop()
 
     print("El resultado es: ",operacion)
     #Calculamos las operaciones de suma y resta en el orden en el que están en la lista

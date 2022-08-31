@@ -59,7 +59,17 @@ Salida: Hola Mary, estoy viendo que tu email está registrado con Google. ¡Eso 
 ### traductorMorse: ejercicio15.py Crea un programa que sea capaz de transformar texto natural a código morse y viceversa. Debe detectar automáticamente de qué tipo se trata y realizar la conversión. En morse se soporta raya "—", punto ".", un espacio " " entre letras o símbolos y dos espacios entre palabras "  ". El alfabeto morse soportado será el mostrado en https://es.wikipedia.org/wiki/Código_morse
 ### contactos: ejercicio 27 El siguiente programa lee valores del teclado para crear una colección de contactos bajo la forma de lista de diccionarios. Solo cuando se introducen valores no vacíos, se almacenan en el diccionario. El número total de contactos es indefinido y depende del usuario, al que se le pregunta si desea introducir más contactos después de cada uno de ellos.
 ### botEliza: ejercicio 46 sobre crear un bot mediante un diccionario
-
+### pokemon: ejercicio 69 Crea un programa que calcule el daño de un ataque durante una batalla Pokémon.
+    - La fórmula será la siguiente: daño = 50 * (ataque / defensa) * efectividad
+    - Efectividad: x2 (súper efectivo), x1 (neutral), x0.5 (no es muy efectivo)
+    - Sólo hay 4 tipos de Pokémon: Agua, Fuego, Planta y Eléctrico 
+    (buscar su efectividad)
+    - El programa recibe los siguientes parámetros:
+    - Tipo del Pokémon atacante.
+    - Tipo del Pokémon defensor.
+    - Ataque: Entre 1 y 100.
+    - Defensa: Entre 1 y 100.
+    
 ## Matrices
 
 ### ordenarMatriz: ejercicio 4 que pide ordenar cada una de las filas de una matriz primero de menor a mayor y luego de mayor a menor
