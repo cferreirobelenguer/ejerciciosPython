@@ -9,11 +9,7 @@ Enunciado: Lee el fichero "Challenge21.txt" incluido en el proyecto, calcula su 
     - Si el formato del .txt no es correcto, se indicará que no se han podido resolver las operaciones.
 
 """
-def operar(operacion):
-    num1multi=0
-    num2multi=0
-    num1divi=0
-    num2divi=0   
+def operar(operacion):  
 
     print("El resultado es: ",operacion)
     #Calculamos las operaciones de suma y resta en el orden en el que están en la lista
