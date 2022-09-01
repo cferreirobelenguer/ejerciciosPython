@@ -36,7 +36,7 @@ def batalla():
         defensaJugador1=int(random.randint(1,100))
         if(luchador1=="Agua"):
             #Se calcula el daño del jugador 2 al jugador 1
-            danoJugador1=50*(ataqueJugador2/defensaJugador1)*int(Agua[luchador2lower])
+            danoJugador1=50*(ataqueJugador2/defensaJugador1)*float(Agua[luchador2lower])
         elif(luchador1=="Fuego"):
             #Se calcula el daño del jugador 2 al jugador 1
             danoJugador1=50*(ataqueJugador2/defensaJugador1)*float(Fuego[luchador2lower])
