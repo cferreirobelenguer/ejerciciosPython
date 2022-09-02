@@ -47,6 +47,10 @@ Salida: Hola Mary, estoy viendo que tu email está registrado con Google. ¡Eso 
     Enunciado: Crea dos funciones, una que calcule el máximo común divisor (MCD) 
     y otra que calcule el mínimo común múltiplo (mcm) de dos números enteros.
     - No se pueden utilizar operaciones del lenguaje que lo resuelvan directamente.
+### areaPoligono: ejercicio 70 Crea una única función (importante que sea única) que sea capaz de calcular y retornar el área de un polígono:
+- La función recibirá por parámetro sólo un polígono a la vez.
+- Los polígonos soportados serán Triángulos, Cuadrado y Rectángulo.
+- Imprime el cálculo del área de un polígono de cada tipo
 
 ## Diccionario
 
