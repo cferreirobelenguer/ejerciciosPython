@@ -8,6 +8,7 @@ Versión usada de Python: Python3
 - Matrices
 - Listas
 - Tuplas
+- Sets
 - Programación orientada a objetos y herencia
 - Generadores
 - Archivos
@@ -110,6 +111,9 @@ variará el símbolo de esa parte de la pista.
     - Si hace "run" en "|" (valla), se variará la pista por "/".
     - La función retornará un Boolean que indique si ha superado la carrera.
 
+## Sets
+
+### trabajarSets: ejercicio 71 trabajarSets: ejercicio Crear dos sets (set1 y set2) con datos y unirlos en set3. Volver a intentar unir set2 y ver que pasa. Eliminar set2 del set1 y preguntar si Perla que es el contenido de set2 está en la lista de set3. Finalmente pasar set a lista ordenada.
 
 ## Programación orientada a objetos y herencia
 
